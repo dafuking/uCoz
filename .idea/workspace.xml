@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/uCoz@login_feature.coverage" NAME="login.feature Coverage Results" MODIFIED="1473967042261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="uCoz" />
+    <SUITE FILE_PATH="coverage/uCoz@login_feature.coverage" NAME="login.feature Coverage Results" MODIFIED="1473970614160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="uCoz" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="aliases.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aliases.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="18">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="login_steps.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/login_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,8 +58,8 @@
       <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="90">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/features/login.feature" />
-        <option value="$PROJECT_DIR$/aliases.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/aliases.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/login_steps.rb" />
       </list>
     </option>
@@ -337,7 +337,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473960269207</updated>
-      <workItem from="1473960270411" duration="6814000" />
+      <workItem from="1473960270411" duration="8225000" />
     </task>
     <servers />
   </component>
@@ -348,9 +348,24 @@
     <history-entry file="login_feature - 2016.09.15 at 21h 17m 22s.xml">
       <configuration name="login.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
+    <history-entry file="login_feature - 2016.09.15 at 22h 10m 12s.xml">
+      <configuration name="login.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="login_feature - 2016.09.15 at 22h 11m 49s.xml">
+      <configuration name="login.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="login_feature - 2016.09.15 at 22h 12m 23s.xml">
+      <configuration name="login.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="login_feature - 2016.09.15 at 22h 16m 08s.xml">
+      <configuration name="login.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="login_feature - 2016.09.15 at 22h 17m 04s.xml">
+      <configuration name="login.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6814000" />
+    <option name="totallyTimeSpent" value="8225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="24" width="1325" height="744" extended-state="6" />
@@ -385,16 +400,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/aliases.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="18">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -407,10 +414,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/login_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
