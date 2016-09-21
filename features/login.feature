@@ -5,17 +5,24 @@ Feature: Test login
     Given Open the page "https://ukit.com/ru/signIn"
     Then I have title " uKit — Вход "
 
-  Scenario Outline: Test login form
-    Given I have the "form_name" "Вход"
+  Scenario Outline: Test login form with wrong data
+    Given Open the page "https://ukit.com/ru/signIn"
+    Given I have the "form_name" with "Вход" name
     When I fill field "email" with "<email>"
     And I fill field "pass" with "<pass>"
-    And I click button "login_btn"
-    Then I should see "alert" with "<message>"
+    Then Button "login_btn" should not be active
 
     Examples:
-    | email        | pass     | message |
-    | ""           | ""       | ""      |
-    | "qwe"        | "123"    | ""      |
-    | "qwe@qwe.qw" | "123123" | ""      |
+    | email        | pass     |
+    | ''           | ''       |
+    | qwe          | 123      |
+
+  Scenario: Test correctly login
+    Given Open the page "https://ukit.com/ru/signIn"
+    When I fill field "email" with "test666@ro.ru"
+    And I fill field "pass" with "123123"
+    Then Button "login_btn" should be active
+    And After login I should see "ava_name" and equal "test666@ro.ru"
+
 
 
