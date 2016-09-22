@@ -1,6 +1,5 @@
 require 'selenium-webdriver'
 
-
 module Page_utils
 
 
